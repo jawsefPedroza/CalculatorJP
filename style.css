@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url("jesusChrist.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calculator {
+    background-color: rgb(11,88,134);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.screen {
+    width: 224px;
+    background-color: rgb(81,158,174);
+    font-size: 40px;
+    text-align: end;
+    padding: 4px;
+}
+
+.buttons {
+    width: 232px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: rgb(1,140,207);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 4px;
+
+}
+
+button:hover {
+    background-color: rgb(4, 81, 122);
+}
+
+button:active {
+    background-color: rgb(232, 232, 232);
+}
+
+#equals {
+    background-color: rgb(3, 0, 0);
+
+}
+
+#equals:hover {
+    background-color: rgb(198, 1, 1);
+}
+
+#equals:active
+{
+    background-color: red;
+
+}
+
+#clear {
+    width: 100%;
+    background-color: rgb(12, 137, 154);
+    font-size: 30px;
+}
+
+#clear:hover
+ {
+    background-color: rgb(21, 201, 217);
+}
+
+#clear:active
+{
+    background-color: darkred;
+
+}
+
+#addiction, #multiplication , #subtraction , #division
+{
+    background-color: rgb( 234, 162, 33);
+} 
+
+#addiction:hover,
+#multiplication:hover,
+#subtraction:hover,
+#division:hover {
+    background-color: rgb(234, 142, 13);
+}
+
+#addiction:active,
+#multiplication:active,
+#subtraction:active,
+#division:active {
+    background-color: rgb(234, 122, 3);
+}
